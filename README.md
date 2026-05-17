@@ -16,33 +16,17 @@
 
 ---
 <div align="center">
-
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./assets/terminal-card-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./assets/terminal-card-light.svg"
-  />
-
-  <img
-    src="./assets/terminal-card-dark.svg"
-    alt="Terminal Identity Card"
-    width="100%"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-card-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-card-light.svg"/>
+  <img src="./assets/terminal-card-dark.svg" alt="Terminal Identity Card" width="100%"/>
 </picture>
-
 <br/>
 <br/>
-
 <img
   src="https://komarev.com/ghpvc/?username=DevNiru2704&style=for-the-badge&color=0D1117&label=PROFILE+VIEWS&labelColor=00D4FF"
   alt="Profile Views"
 />
-
 </div>
 
 ---
