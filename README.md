@@ -133,10 +133,10 @@ const engineer = {
   </p>
 
   <p>
-    No description
+    A context-aware experimental programming language focused on explicit structure, explainable execution, and AI-assisted reasoning. Built from first principles with a minimal interpreter, full documentation, and an emphasis on clarity over complexity.
   </p>
 
-  <a href="https://github.com/DevNiru2704/CONTEXT">
+  <a href="https://github.com/DevNiru2704/CONTEXT" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
@@ -153,15 +153,15 @@ const engineer = {
   </p>
 
   <p>
-    No description
+    An emergency healthcare platform built with React Native and Django REST Framework, focused on real-time hospital bed booking, patient management, Aadhaar verification, and location-aware emergency response workflows.
   </p>
 
-  <a href="https://github.com/DevNiru2704/doklink-development">
+  <a href="https://github.com/DevNiru2704/doklink-development" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
-  <a href="https://doklink-hospital-dashboard.vercel.app">
+  <a href="https://doklink-hospital-dashboard.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
   </a>
 </td>
@@ -176,15 +176,15 @@ const engineer = {
   </p>
 
   <p>
-    No description
+    A modern event platform for Amity University Kolkata’s tech fest, built with Next.js and React. Features structured event management, animated interactive sections, registration workflows, schedules, sponsor systems, and responsive media-rich experiences.
   </p>
 
-  <a href="https://github.com/DevNiru2704/auktave">
+  <a href="https://github.com/DevNiru2704/auktave" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
-  <a href="https://auktave.vercel.app">
+  <a href="https://auktave.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
   </a>
 </td>
@@ -199,15 +199,15 @@ const engineer = {
   </p>
 
   <p>
-    No description
+    A premium leather manufacturing platform built with Next.js and TypeScript, combining modern web engineering, enterprise-grade security, SEO optimization, and responsive design for global B2B product showcasing and client engagement.
   </p>
 
-  <a href="https://github.com/DevNiru2704/a_fashions">
+  <a href="https://github.com/DevNiru2704/a_fashions" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
-  <a href="https://a-fashions.vercel.app">
+  <a href="https://a-fashions.vercel.app" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
   </a>
 </td>
@@ -222,15 +222,15 @@ const engineer = {
   </p>
 
   <p>
-    A complete remake of my original portfolio website.
+    A modern portfolio platform built with Next.js and TypeScript, featuring interactive UI systems, SEO optimization, accessibility compliance, analytics integration, and performance-focused responsive design.
   </p>
 
-  <a href="https://github.com/DevNiru2704/portfolio-2.0">
+  <a href="https://github.com/DevNiru2704/portfolio-2.0" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
-  <a href="https://www.nirmalyamandal.me">
+  <a href="https://www.nirmalyamandal.me" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
   </a>
 </td>
