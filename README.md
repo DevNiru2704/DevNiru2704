@@ -123,122 +123,8 @@ const engineer = {
 
 ## ◈ &nbsp;Featured Projects
 
-<table width="100%">
-  <tr>
-    <!-- PROJECT 1: CONTEXT -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;CONTEXT</h3>
-      <p>
-        <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" />
-        <img src="https://img.shields.io/badge/Compiler-0D1117?style=flat-square&logoColor=white" />
-        <img src="https://img.shields.io/badge/Language_Design-0D1117?style=flat-square&logoColor=white" />
-      </p>
-      <p>
-        A custom programming language built from scratch — lexer, parser, AST,
-        and tree-walk interpreter. Designed for scripting and tooling ergonomics.
-        Explores language design tradeoffs at every layer of the pipeline.
-      </p>
-      <a href="https://github.com/DevNiru2704/CONTEXT">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-    </td>
-    <!-- PROJECT 2: Doklink -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;Doklink</h3>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/AI/ML-0D1117?style=flat-square" />
-      </p>
-      <p>
-        AI-powered medical platform for prescription management and clinical
-        workflow automation. Structured data extraction from prescriptions with
-        an intelligent linking layer between patients, doctors, and records.
-      </p>
-      <a href="https://github.com/DevNiru2704/doklink-development">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-    </td>
-
-  </tr>
-  <tr>
-    <!-- PROJECT 3: Auktave -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;Auktave</h3>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
-      </p>
-      <p>
-        Full-stack platform and web presence for Auktave. Custom content system,
-        clean API layer, and production infrastructure with clear boundaries
-        between frontend, backend, and data layers.
-      </p>
-      <a href="https://github.com/DevNiru2704/auktave">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-    </td>
-    <!-- PROJECT 4: A Fashions -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;A Fashions</h3>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-      </p>
-      <p>
-        E-commerce and brand platform for a fashion business. Product catalog,
-        order flow, and storefront — containerised deployment with a Django
-        backend and a React-driven UI.
-      </p>
-      <a href="https://github.com/DevNiru2704/a_fashions">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-    </td>
-
-  </tr>
-  <tr>
-    <!-- PROJECT 5: Portfolio 2.0 -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;Portfolio 2.0</h3>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      </p>
-      <p>
-        Second iteration of personal portfolio — performance-focused, minimal,
-        and engineered rather than templated. Custom animations, zero UI kit
-        dependencies, deployed at nirmalyamandal.me.
-      </p>
-      <a href="https://github.com/DevNiru2704/portfolio-2.0">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-      <a href="https://nirmalyamandal.me">
-        <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-      </a>
-    </td>
-    <!-- PROJECT 6: DevOps & Linux Tooling (update href when dotfiles repo is created) -->
-    <td width="50%" valign="top">
-      <h3>⬡ &nbsp;DevOps &amp; Linux Tooling</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=archlinux&logoColor=white" />
-      </p>
-      <p>
-        Dotfiles, container configs, and shell automation for a reproducible
-        Arch + Hyprland environment. Neovim config, Zsh setup,
-        and Compose stacks for self-hosted tooling.
-      </p>
-      <!-- Update this link when your dotfiles repo is ready -->
-      <a href="https://github.com/DevNiru2704">
-        <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-      </a>
-    </td>
-
-  </tr>
-</table>
+<!-- START_PROJECTS --> 
+<!-- END_PROJECTS -->
 
 ---
 
@@ -302,7 +188,7 @@ Not open to: Tutorial projects · Spec work · Unpaid consulting
 <div align="center">
 
 <sub>
-Built with intent, not templates &nbsp;·&nbsp; May 2025
+Built with intent, not templates &nbsp;·&nbsp; May 2026
 </sub>
 
 </div>
