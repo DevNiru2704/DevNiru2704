@@ -66,22 +66,25 @@ const engineer = {
 
 ## ◈ &nbsp;Analytics
 
+```md
 <table>
   <tr>
     <td>
       <img
-        src="https://github-readme-stats.vercel.app/api?username=DevNiru2704&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=a9b1d6&ring_color=00D4FF&count_private=true&include_all_commits=true"
+        src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevNiru2704&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=a9b1d6&ring_color=00D4FF&count_private=true&include_all_commits=true"
         alt="GitHub Stats"
       />
     </td>
     <td>
       <img
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevNiru2704&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&text_color=a9b1d6&langs_count=8"
+        src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevNiru2704&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&text_color=a9b1d6&langs_count=8"
         alt="Top Languages"
       />
     </td>
   </tr>
 </table>
+```
+
 
 <img
   src="https://streak-stats.demolab.com?user=DevNiru2704&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF&sideLabels=a9b1d6&dates=a9b1d6"
