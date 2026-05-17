@@ -123,32 +123,6 @@ const engineer = {
 
 ## ◈ &nbsp;Featured Projects
 
-<!-- ────────────────────────────────
-     PROJECT CARD TEMPLATE
-     Copy this entire block and paste it inside the <table> as a new <tr>
-     to add more projects later.
-
-     <tr>
-       <td width="50%" valign="top">
-         <h3>⬡ &nbsp;PROJECT NAME</h3>
-         <p>
-           <img src="https://img.shields.io/badge/Lang-COLOR?style=flat-square&logo=LOGO&logoColor=white" />
-         </p>
-         <p>
-           One or two sentences. Engineering-focused. No fluff.
-         </p>
-         <a href="https://github.com/DevNiru2704/REPO-NAME">
-           <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-         </a>
-         <!-- optional live badge:
-         <a href="https://YOUR-LIVE-URL">
-           <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-         </a>
-         -->
-       </td>
-     </tr>
-     ──────────────────────────────── -->
-
 <table width="100%">
   <tr>
 
