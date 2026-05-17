@@ -12,9 +12,6 @@
 <!-- <a href="https://git.io/typing-svg" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=%24+whoami;Full+Stack+%7C+DevOps+%7C+Systems" alt="Typing SVG" /></a> -->
 
 
-
-
----
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-card-dark.svg"/>
