@@ -20,12 +20,9 @@
 
 ---
 
-```html
 <div align="center">
     <img src="./assets/terminal-card.svg" alt="Terminal Identity Card" width="100%" />
 </div>
-```
-
 
 ---
 
