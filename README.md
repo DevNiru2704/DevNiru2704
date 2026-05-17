@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=%24+whoami;Full+Stack+%7C+DevOps+%7C+Systems)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg" target="_blank" rel="noopener noreferrer">[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=%24+whoami;Full+Stack+%7C+DevOps+%7C+Systems)](https://git.io/typing-svg)</a>
 
 <br/>
 
@@ -278,12 +278,12 @@ exploring:
 
 ## ◈ &nbsp;Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/nirmalya-mandal-9b2475313)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff)](https://nirmalyamandal.me)
-[![LeetCode](https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/u/wQ6wdt3C20)
-[![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=ffffff)](https://x.com/Nirmalya2709)
-[![Outlook](https://img.shields.io/badge/Outlook-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=0078D4)](mailto:nirmalya.mandal@outlook.com)
-[![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:nirmalyamandal342@gmail.com)
+<a href="https://linkedin.com/in/nirmalya-mandal-9b2475313" target="_blank" rel="noopener noreferrer">![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2)</a>
+<a href="https://nirmalyamandal.me" target="_blank" rel="noopener noreferrer">![Portfolio](https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff)</a>
+<a href="https://leetcode.com/u/wQ6wdt3C20" target="_blank" rel="noopener noreferrer">![LeetCode](https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116)</a>
+<a href="https://x.com/Nirmalya2709" target="_blank" rel="noopener noreferrer">![X](https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=ffffff)</a>
+<a href="mailto:nirmalya.mandal@outlook.com" target="_blank" rel="noopener noreferrer">![Outlook](https://img.shields.io/badge/Outlook-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=0078D4)</a>
+<a href="mailto:nirmalyamandal342@gmail.com" target="_blank" rel="noopener noreferrer">![Gmail](https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335)</a>
 
 <br/>
 
