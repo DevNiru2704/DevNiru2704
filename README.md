@@ -123,7 +123,118 @@ const engineer = {
 
 ## ◈ &nbsp;Featured Projects
 
-<!-- START_PROJECTS --> 
+<!-- START_PROJECTS -->
+<table width="100%"><tr>
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;CONTEXT</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  </p>
+
+  <p>
+    No description
+  </p>
+
+  <a href="https://github.com/DevNiru2704/CONTEXT">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+</td>
+
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;doklink-development</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Shell-0D1117?style=flat-square&logo=shell&logoColor=white" />
+  </p>
+
+  <p>
+    No description
+  </p>
+
+  <a href="https://github.com/DevNiru2704/doklink-development">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://doklink-hospital-dashboard.vercel.app">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;auktave</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
+  </p>
+
+  <p>
+    No description
+  </p>
+
+  <a href="https://github.com/DevNiru2704/auktave">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://auktave.vercel.app">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;a_fashions</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
+  </p>
+
+  <p>
+    No description
+  </p>
+
+  <a href="https://github.com/DevNiru2704/a_fashions">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://a-fashions.vercel.app">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;portfolio-2.0</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
+  </p>
+
+  <p>
+    A complete remake of my original portfolio website.
+  </p>
+
+  <a href="https://github.com/DevNiru2704/portfolio-2.0">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://www.nirmalyamandal.me">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+</tr></table>
 <!-- END_PROJECTS -->
 
 ---
