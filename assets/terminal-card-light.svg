@@ -15,7 +15,7 @@
       Same subconscious texture as dark version, inverted to shadow rather than highlight.
     -->
     <pattern id="sl" x="0" y="0" width="1200" height="4" patternUnits="userSpaceOnUse">
-      <rect x="0" y="0" width="1200" height="1" fill="#7090a0" opacity="0.04"/>
+      <rect x="0" y="0" width="1200" height="1" fill="#909090" opacity="0.04"/>
     </pattern>
 
     <!-- Micro text haze — same as dark version -->
@@ -25,13 +25,13 @@
 
     <!-- Vignette — very light darkening at corners, warm tint -->
     <radialGradient id="vg" cx="50%" cy="50%" r="72%">
-      <stop offset="0%"   stop-color="#f5f0eb" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#c8bfb0" stop-opacity="0.28"/>
+      <stop offset="0%"   stop-color="#f8f8f8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#cccccc" stop-opacity="0.28"/>
     </radialGradient>
   </defs>
 
   <!-- ══ Base layer — warm off-white, not pure white ══ -->
-  <rect width="1200" height="380" rx="8" fill="#f0ebe3"/>
+  <rect width="1200" height="380" rx="8" fill="#ffffff"/>
 
   <!-- Scanline overlay -->
   <rect width="1200" height="380" rx="8" fill="url(#sl)"/>
@@ -40,20 +40,20 @@
   <rect width="1200" height="380" rx="8" fill="url(#vg)"/>
 
   <!-- Outer border — soft warm grey -->
-  <rect width="1200" height="380" rx="8" fill="none" stroke="#cdc5bb" stroke-width="1"/>
+  <rect width="1200" height="380" rx="8" fill="none" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- ══ Titlebar — slightly cooler than body, paper-like ══ -->
-  <rect x="0" y="0" width="1200" height="32" rx="8" fill="#e8e2d9"/>
-  <rect x="0" y="22" width="1200" height="10" fill="#e8e2d9"/>
-  <rect x="0" y="31" width="1200" height="1" fill="#cdc5bb"/>
+  <rect x="0" y="0" width="1200" height="32" rx="8" fill="#f5f5f5"/>
+  <rect x="0" y="22" width="1200" height="10" fill="#f5f5f5"/>
+  <rect x="0" y="31" width="1200" height="1" fill="#e2e2e2"/>
 
   <!-- Window dots — warm grey, uncoloured -->
-  <circle cx="19" cy="16" r="4.5" fill="#c4bcb2"/>
-  <circle cx="36" cy="16" r="4.5" fill="#c4bcb2"/>
-  <circle cx="53" cy="16" r="4.5" fill="#c4bcb2"/>
+  <circle cx="19" cy="16" r="4.5" fill="#d0d0d0"/>
+  <circle cx="36" cy="16" r="4.5" fill="#d0d0d0"/>
+  <circle cx="53" cy="16" r="4.5" fill="#d0d0d0"/>
 
   <!-- Titlebar label -->
-  <text x="578" y="20" text-anchor="middle" class="m" font-size="10" fill="#a89e92">devniru2704@arch  —  zsh</text>
+  <text x="578" y="20" text-anchor="middle" class="m" font-size="10" fill="#a0a0a0">devniru2704@arch  —  zsh</text>
 
   <!-- ══════════════════════════════════════════════════════
        LEFT COLUMN — Arch Linux logo
@@ -83,10 +83,10 @@
   </g>
 
   <!-- Distro label -->
-  <text x="74" y="182" text-anchor="middle" class="m" font-size="9" fill="#a89e92">Arch Linux  x86_64</text>
+  <text x="74" y="182" text-anchor="middle" class="m" font-size="9" fill="#a0a0a0">Arch Linux  x86_64</text>
 
   <!-- Left vertical divider -->
-  <line x1="158" y1="46" x2="158" y2="350" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="158" y1="46" x2="158" y2="350" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- ══════════════════════════════════════════════════════
        CENTRE — fastfetch rows
@@ -96,128 +96,128 @@
 
   <!-- user@host — green teal for username, darker teal for host -->
   <text x="178" y="69" class="m" font-size="13.5" font-weight="bold">
-    <tspan fill="#2e7d52">devniru2704</tspan><tspan fill="#b0a89e">@</tspan><tspan fill="#0e7a8c">arch</tspan>
+    <tspan fill="#2e7d52">devniru2704</tspan><tspan fill="#aaaaaa">@</tspan><tspan fill="#0e7a8c">arch</tspan>
   </text>
 
   <!-- Separator -->
-  <line x1="178" y1="77" x2="706" y2="77" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="178" y1="77" x2="706" y2="77" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- Sub-prompt -->
-  <text x="178" y="93" class="m" font-size="10" fill="#b0a89e">
+  <text x="178" y="93" class="m" font-size="10" fill="#aaaaaa">
     runtime-engineering-environment initialized <tspan fill="#2e7d52" class="blink">▌</tspan>
   </text>
 
   <!-- ── Environment block ── -->
 
-  <text x="178" y="120" class="m" font-size="11.5" fill="#8a8077">OS</text>
-  <text x="288" y="120" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">Arch Linux</text>
+  <text x="178" y="120" class="m" font-size="11.5" fill="#7a7a7a">OS</text>
+  <text x="288" y="120" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">Arch Linux</text>
 
-  <text x="178" y="138" class="m" font-size="11.5" fill="#8a8077">WM</text>
-  <text x="288" y="138" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">Hyprland</text>
+  <text x="178" y="138" class="m" font-size="11.5" fill="#7a7a7a">WM</text>
+  <text x="288" y="138" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">Hyprland</text>
 
   <!-- Shell value y=157 vs key y=156 — preserved drift -->
-  <text x="178" y="156" class="m" font-size="11.5" fill="#8a8077">Shell</text>
-  <text x="288" y="157" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">zsh  <tspan fill="#b0a89e">+</tspan>  starship</text>
+  <text x="178" y="156" class="m" font-size="11.5" fill="#7a7a7a">Shell</text>
+  <text x="288" y="157" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">zsh  <tspan fill="#aaaaaa">+</tspan>  starship</text>
 
-  <text x="178" y="175" class="m" font-size="11.5" fill="#8a8077">Editor</text>
-  <text x="288" y="175" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">Neovim</text>
+  <text x="178" y="175" class="m" font-size="11.5" fill="#7a7a7a">Editor</text>
+  <text x="288" y="175" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">Neovim</text>
 
-  <text x="178" y="193" class="m" font-size="11.5" fill="#8a8077">Terminal</text>
-  <text x="288" y="193" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">kitty  <tspan fill="#b0a89e">+</tspan>  tmux</text>
+  <text x="178" y="193" class="m" font-size="11.5" fill="#7a7a7a">Terminal</text>
+  <text x="288" y="193" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">kitty  <tspan fill="#aaaaaa">+</tspan>  tmux</text>
 
   <!-- ── Tools block (gap +23) ── -->
 
-  <text x="178" y="216" class="m" font-size="11.5" fill="#8a8077">Languages</text>
-  <text x="288" y="216" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">C  TypeScript  Python</text>
+  <text x="178" y="216" class="m" font-size="11.5" fill="#7a7a7a">Languages</text>
+  <text x="288" y="216" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">C  TypeScript  Python</text>
 
-  <text x="178" y="234" class="m" font-size="11.5" fill="#8a8077">Compiler</text>
-  <text x="288" y="234" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">gcc  clang</text>
+  <text x="178" y="234" class="m" font-size="11.5" fill="#7a7a7a">Compiler</text>
+  <text x="288" y="234" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">gcc  clang</text>
 
-  <text x="178" y="252" class="m" font-size="11.5" fill="#8a8077">Build</text>
-  <text x="288" y="252" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">cmake  ninja</text>
+  <text x="178" y="252" class="m" font-size="11.5" fill="#7a7a7a">Build</text>
+  <text x="288" y="252" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">cmake  ninja</text>
 
   <!-- Containers value y=271 — preserved drift -->
-  <text x="178" y="270" class="m" font-size="11.5" fill="#8a8077">Containers</text>
-  <text x="288" y="271" class="m" font-size="11.5" fill="#2c2820" filter="url(#th)">docker</text>
+  <text x="178" y="270" class="m" font-size="11.5" fill="#7a7a7a">Containers</text>
+  <text x="288" y="271" class="m" font-size="11.5" fill="#1a1a1a" filter="url(#th)">docker</text>
 
   <!-- Thin rule — short of divider -->
-  <line x1="178" y1="284" x2="688" y2="284" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="178" y1="284" x2="688" y2="284" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- Focus -->
-  <text x="178" y="302" class="m" font-size="11" fill="#8a8077">Focus</text>
-  <text x="288" y="302" class="m" font-size="11" fill="#7a7268">systems  ·  runtimes  ·  compilers  ·  tooling</text>
+  <text x="178" y="302" class="m" font-size="11" fill="#7a7a7a">Focus</text>
+  <text x="288" y="302" class="m" font-size="11" fill="#777777">systems  ·  runtimes  ·  compilers  ·  tooling</text>
 
   <!-- Projects -->
-  <text x="178" y="322" class="m" font-size="11" fill="#8a8077">Projects</text>
+  <text x="178" y="322" class="m" font-size="11" fill="#7a7a7a">Projects</text>
   <text x="288" y="322" class="m" font-size="11">
-    <tspan fill="#0e7a8c">CONTEXT</tspan><tspan fill="#b0a89e"> runtime  ·  </tspan><tspan fill="#2e7d52">Doklink</tspan><tspan fill="#b0a89e"> clinical AI</tspan>
+    <tspan fill="#0e7a8c">CONTEXT</tspan><tspan fill="#aaaaaa"> runtime  ·  </tspan><tspan fill="#2e7d52">Doklink</tspan><tspan fill="#aaaaaa"> clinical AI</tspan>
   </text>
 
   <!-- ══════════════════════════════════════════════════════
        RIGHT PANEL — git + system identity
   ══════════════════════════════════════════════════════ -->
 
-  <line x1="760" y1="46" x2="760" y2="350" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="760" y1="46" x2="760" y2="350" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- GIT section -->
-  <text x="782" y="69" class="m" font-size="9" fill="#b0a89e" letter-spacing="1.4">GIT</text>
-  <line x1="782" y1="77" x2="1172" y2="77" stroke="#cdc5bb" stroke-width="1"/>
+  <text x="782" y="69" class="m" font-size="9" fill="#aaaaaa" letter-spacing="1.4">GIT</text>
+  <line x1="782" y1="77" x2="1172" y2="77" stroke="#e2e2e2" stroke-width="1"/>
 
-  <text x="782" y="96"  class="m" font-size="11" fill="#8a8077">user</text>
-  <text x="848" y="96"  class="m" font-size="11" fill="#4a4540" filter="url(#th)">devniru2704</text>
+  <text x="782" y="96"  class="m" font-size="11" fill="#7a7a7a">user</text>
+  <text x="848" y="96"  class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">devniru2704</text>
 
   <!-- branch value y=114 — preserved drift -->
-  <text x="782" y="113" class="m" font-size="11" fill="#8a8077">branch</text>
-  <text x="848" y="114" class="m" font-size="11" fill="#4a4540" filter="url(#th)"><tspan fill="#c4bcb2">* </tspan>feat/context-parser</text>
+  <text x="782" y="113" class="m" font-size="11" fill="#7a7a7a">branch</text>
+  <text x="848" y="114" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)"><tspan fill="#d0d0d0">* </tspan>feat/context-parser</text>
 
-  <text x="782" y="131" class="m" font-size="11" fill="#8a8077">commit</text>
-  <text x="848" y="131" class="m" font-size="11" fill="#a89e92" filter="url(#th)">a3f91c2</text>
+  <text x="782" y="131" class="m" font-size="11" fill="#7a7a7a">commit</text>
+  <text x="848" y="131" class="m" font-size="11" fill="#a0a0a0" filter="url(#th)">a3f91c2</text>
 
-  <text x="782" y="149" class="m" font-size="11" fill="#8a8077">status</text>
+  <text x="782" y="149" class="m" font-size="11" fill="#7a7a7a">status</text>
   <text x="848" y="149" class="m" font-size="11" fill="#2e7d52" filter="url(#th)">clean</text>
 
   <!-- Separator -->
-  <line x1="782" y1="161" x2="1172" y2="161" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="782" y1="161" x2="1172" y2="161" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- SYSTEM section -->
-  <text x="782" y="179" class="m" font-size="9" fill="#b0a89e" letter-spacing="1.4">SYSTEM</text>
-  <line x1="782" y1="187" x2="1172" y2="187" stroke="#cdc5bb" stroke-width="1"/>
+  <text x="782" y="179" class="m" font-size="9" fill="#aaaaaa" letter-spacing="1.4">SYSTEM</text>
+  <line x1="782" y1="187" x2="1172" y2="187" stroke="#e2e2e2" stroke-width="1"/>
 
-  <text x="782" y="206" class="m" font-size="11" fill="#8a8077">kernel</text>
-  <text x="848" y="206" class="m" font-size="11" fill="#4a4540" filter="url(#th)">6.9.3-arch1-1</text>
+  <text x="782" y="206" class="m" font-size="11" fill="#7a7a7a">kernel</text>
+  <text x="848" y="206" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">6.9.3-arch1-1</text>
 
   <!-- pkgs x=847 — preserved drift -->
-  <text x="782" y="224" class="m" font-size="11" fill="#8a8077">pkgs</text>
-  <text x="847" y="224" class="m" font-size="11" fill="#4a4540" filter="url(#th)">1847 (pacman)</text>
+  <text x="782" y="224" class="m" font-size="11" fill="#7a7a7a">pkgs</text>
+  <text x="847" y="224" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">1847 (pacman)</text>
 
-  <text x="782" y="241" class="m" font-size="11" fill="#8a8077">shell</text>
-  <text x="848" y="241" class="m" font-size="11" fill="#4a4540" filter="url(#th)">uptime  14h 32m</text>
+  <text x="782" y="241" class="m" font-size="11" fill="#7a7a7a">shell</text>
+  <text x="848" y="241" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">uptime  14h 32m</text>
 
   <!-- nvim value y=259 — preserved drift -->
-  <text x="782" y="258" class="m" font-size="11" fill="#8a8077">nvim</text>
-  <text x="848" y="259" class="m" font-size="11" fill="#4a4540" filter="url(#th)">plugins  64 (lazy)</text>
+  <text x="782" y="258" class="m" font-size="11" fill="#7a7a7a">nvim</text>
+  <text x="848" y="259" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">plugins  64 (lazy)</text>
 
-  <text x="782" y="277" class="m" font-size="11" fill="#8a8077">workspace</text>
-  <text x="848" y="277" class="m" font-size="11" fill="#4a4540" filter="url(#th)">ws-3  (dev)</text>
+  <text x="782" y="277" class="m" font-size="11" fill="#7a7a7a">workspace</text>
+  <text x="848" y="277" class="m" font-size="11" fill="#3a3a3a" filter="url(#th)">ws-3  (dev)</text>
 
   <!-- Separator -->
-  <line x1="782" y1="290" x2="1172" y2="290" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="782" y1="290" x2="1172" y2="290" stroke="#e2e2e2" stroke-width="1"/>
 
   <!-- Runtime status dots -->
   <circle cx="788" cy="307" r="3"   fill="#2e7d52" class="p1"/>
-  <text   x="800"  y="311" class="m" font-size="10.5" fill="#8a8077">all services running</text>
+  <text   x="800"  y="311" class="m" font-size="10.5" fill="#7a7a7a">all services running</text>
 
   <circle cx="788" cy="324" r="3"   fill="#b06820" class="p2"/>
-  <text   x="800"  y="328" class="m" font-size="10.5" fill="#8a8077">CONTEXT runtime — active</text>
+  <text   x="800"  y="328" class="m" font-size="10.5" fill="#7a7a7a">CONTEXT runtime — active</text>
 
   <circle cx="788" cy="341" r="3"   fill="#0e7a8c" class="p3"/>
-  <text   x="800"  y="345" class="m" font-size="10.5" fill="#8a8077">Doklink pipeline — staging</text>
+  <text   x="800"  y="345" class="m" font-size="10.5" fill="#7a7a7a">Doklink pipeline — staging</text>
 
   <!-- ══ Bottom bar ══ -->
-  <line x1="0" y1="350" x2="1200" y2="350" stroke="#cdc5bb" stroke-width="1"/>
+  <line x1="0" y1="350" x2="1200" y2="350" stroke="#e2e2e2" stroke-width="1"/>
 
-  <text x="22"  y="367" class="m" font-size="11"   fill="#7a9e80">❯</text>
-  <text x="40"  y="367" class="m" font-size="10.5" fill="#c4bcb2">"Build intentionally. Understand deeply."</text>
-  <text x="1178" y="367" text-anchor="end" class="m" font-size="9" fill="#d0c8be">devniru2704</text>
+  <text x="22"  y="367" class="m" font-size="11"   fill="#5a9a6a">❯</text>
+  <text x="40"  y="367" class="m" font-size="10.5" fill="#d0d0d0">"Build intentionally. Understand deeply."</text>
+  <text x="1178" y="367" text-anchor="end" class="m" font-size="9" fill="#dddddd">devniru2704</text>
 
 </svg>
