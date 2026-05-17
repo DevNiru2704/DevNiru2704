@@ -1,0 +1,37 @@
+name: Generate Featured Projects
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Projects
+        run: node scripts/generate-projects.js
+
+      - name: Commit Changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git add README.md
+
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update featured projects"
+
+          git push
