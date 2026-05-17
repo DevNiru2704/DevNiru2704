@@ -16,7 +16,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-card-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-card-light.svg"/>
-  <img src="./assets/terminal-card-dark.svg" alt="Terminal Identity Card" width="100%"/>
+  <img src="./assets/terminal-card-dark.svg" alt="Terminal Identity Card" width="100%" height="auto"/>
 </picture>
 <br/>
 <br/>
