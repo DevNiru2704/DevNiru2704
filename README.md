@@ -125,6 +125,7 @@ const engineer = {
 
 <table width="100%">
   <tr>
+    <!-- PROJECT 1: CONTEXT -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;CONTEXT</h3>
       <p>
@@ -141,6 +142,7 @@ const engineer = {
         <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
       </a>
     </td>
+    <!-- PROJECT 2: Doklink -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;Doklink</h3>
       <p>
@@ -160,7 +162,6 @@ const engineer = {
 
   </tr>
   <tr>
-
     <!-- PROJECT 3: Auktave -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;Auktave</h3>
@@ -178,7 +179,6 @@ const engineer = {
         <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
       </a>
     </td>
-
     <!-- PROJECT 4: A Fashions -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;A Fashions</h3>
@@ -199,7 +199,6 @@ const engineer = {
 
   </tr>
   <tr>
-
     <!-- PROJECT 5: Portfolio 2.0 -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;Portfolio 2.0</h3>
@@ -219,7 +218,6 @@ const engineer = {
         <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
       </a>
     </td>
-
     <!-- PROJECT 6: DevOps & Linux Tooling (update href when dotfiles repo is created) -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;DevOps &amp; Linux Tooling</h3>
