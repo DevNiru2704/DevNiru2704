@@ -31,7 +31,7 @@
   <img
     src="./assets/terminal-card-dark.svg"
     alt="Terminal Identity Card"
-    width="95%"
+    width="100%"
   />
 </picture>
 
