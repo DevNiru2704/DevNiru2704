@@ -125,8 +125,6 @@ const engineer = {
 
 <table width="100%">
   <tr>
-
-    <!-- PROJECT 1: CONTEXT -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;CONTEXT</h3>
       <p>
@@ -143,8 +141,6 @@ const engineer = {
         <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
       </a>
     </td>
-
-    <!-- PROJECT 2: Doklink -->
     <td width="50%" valign="top">
       <h3>⬡ &nbsp;Doklink</h3>
       <p>
