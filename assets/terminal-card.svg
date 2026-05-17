@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="devniru2704 — terminal identity card">
+  <defs>
+    <style>
+      .m { font-family: 'JetBrains Mono','Fira Code','Cascadia Code','Consolas','Courier New',monospace; }
+      @keyframes blink { 0%,100%{opacity:1}  50%{opacity:0} }
+      @keyframes pulse { 0%,100%{opacity:.3} 55%{opacity:.85} }
+      .blink { animation: blink 1.15s step-end infinite; }
+      .p1 { animation: pulse 3.2s          ease-in-out infinite; }
+      .p2 { animation: pulse 3.2s  .9s     ease-in-out infinite; }
+      .p3 { animation: pulse 3.2s  1.8s    ease-in-out infinite; }
+    </style>
+
+    <!--
+      Scanline pattern — 1px stripe every 4px, nearly invisible.
+      Gives the faintest sense of monitor phosphor rows without any
+      CRT cliché. Opacity tuned to be subconscious only.
+    -->
+    <pattern id="sl" x="0" y="0" width="1200" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="1200" height="1" fill="#c8d8ff" opacity="0.016"/>
+    </pattern>
+
+    <!--
+      Micro text-rendering haze.
+      stdDeviation=0.18 — softer than perfect vector letterforms,
+      approximates real terminal sub-pixel antialiasing.
+      Applied only to body text, not labels or UI chrome.
+    -->
+    <filter id="th" x="-2%" y="-8%" width="104%" height="120%">
+      <feGaussianBlur stdDeviation="0.18"/>
+    </filter>
+
+    <!--
+      Subtle vignette — darkens corners very slightly.
+      Makes the card feel like it lives inside a monitor bezel
+      rather than floating in white space.
+    -->
+    <radialGradient id="vg" cx="50%" cy="50%" r="72%">
+      <stop offset="0%"   stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#06080d" stop-opacity="0.38"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ══ Base layer ══ -->
+  <rect width="1200" height="380" rx="8" fill="#0d1117"/>
+
+  <!-- Scanline overlay -->
+  <rect width="1200" height="380" rx="8" fill="url(#sl)"/>
+
+  <!-- Vignette -->
+  <rect width="1200" height="380" rx="8" fill="url(#vg)"/>
+
+  <!-- Outer border -->
+  <rect width="1200" height="380" rx="8" fill="none" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- ══ Titlebar ══ -->
+  <rect x="0" y="0" width="1200" height="32" rx="8" fill="#0e1220"/>
+  <rect x="0" y="22" width="1200" height="10" fill="#0e1220"/>
+  <rect x="0" y="31" width="1200" height="1" fill="#1b2131"/>
+
+  <!-- Window dots — muted grey, not coloured, not prominent -->
+  <circle cx="19" cy="16" r="4.5" fill="#242b3a"/>
+  <circle cx="36" cy="16" r="4.5" fill="#242b3a"/>
+  <circle cx="53" cy="16" r="4.5" fill="#242b3a"/>
+
+  <!-- Titlebar label — pulled ~20px left of true centre, subtle asymmetry -->
+  <text x="578" y="20" text-anchor="middle" class="m" font-size="10" fill="#30394f">devniru2704@arch  —  zsh</text>
+
+  <!-- ══════════════════════════════════════════════════════
+       LEFT COLUMN — Arch Linux logo (official path, clean mono)
+
+       Source: official archlinux.org SVG, first path only.
+       All gradients, gloss, shine, and secondary paths removed.
+       Fill converted to flat #00b8cc (slightly muted vs prev cyan).
+       Scaled to 110×110px at translate(18, 52).
+       scale = 110/256 ≈ 0.4297
+  ══════════════════════════════════════════════════════ -->
+  <g transform="translate(18, 52) scale(0.4297)" opacity="0.78">
+    <path
+      fill="#00b8cc"
+      d="M128 0
+         c-11.39482 27.937051-18.31337 46.237163-31 73.34375
+         7.7785 8.245207 17.33826 17.811753 32.84375 28.65625
+         -16.66992-6.859577-28.03357-13.728504-36.53125-20.875
+         C77.076039 115.00489 51.621645 163.24639 0 256
+         c40.562707-23.41756 72.007597-37.86167 101.3125-43.375
+         -1.25376-5.40435-1.923505-11.27752-1.875-17.375
+         l.03125-1.28125
+         c.64379-25.99398 14.16934-45.98224 30.1875-44.625
+         16.01815 1.35723 28.48754 23.53727 27.84375 49.53125
+         -.12127 4.89622-.6905 9.60082-1.65625 13.96875
+         C184.83328 218.51691 215.98162 232.89667 256 256
+         c-7.89193-14.52962-14.96051-27.61983-21.6875-40.09375
+         -10.59609-8.21269-21.64301-18.89743-44.1875-30.46875
+         15.4958 4.02645 26.60184 8.6825 35.25 13.875
+         C156.97985 71.972668 151.45422 55.040376 128 0z"
+    />
+  </g>
+
+  <!-- Distro label — below logo -->
+  <text x="74" y="182" text-anchor="middle" class="m" font-size="9" fill="#2e374d">Arch Linux  x86_64</text>
+
+  <!-- Left vertical divider -->
+  <line x1="158" y1="46" x2="158" y2="350" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- ══════════════════════════════════════════════════════
+       CENTRE — fastfetch identity rows
+
+       Key column:   x=178
+       Value column: x=288
+       Base row pitch: 18px. Intentional micro-drifts applied to
+       specific rows to simulate human neofetch config editing.
+  ══════════════════════════════════════════════════════ -->
+
+  <!-- user@host -->
+  <text x="178" y="69" class="m" font-size="13.5" font-weight="bold">
+    <tspan fill="#4ea368">devniru2704</tspan><tspan fill="#283044">@</tspan><tspan fill="#00b8cc">arch</tspan>
+  </text>
+
+  <!-- Separator — does not reach full column width, slight shortfall -->
+  <line x1="178" y1="77" x2="706" y2="77" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- Sub-prompt — very dim, cursor blink -->
+  <text x="178" y="93" class="m" font-size="10" fill="#28304a">
+    runtime-engineering-environment initialized <tspan fill="#4ea368" class="blink">▌</tspan>
+  </text>
+
+  <!-- ── Environment block ───────────────────────────── -->
+
+  <!-- OS: baseline y=120 -->
+  <text x="178" y="120" class="m" font-size="11.5" fill="#3d4d66">OS</text>
+  <text x="288" y="120" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">Arch Linux</text>
+
+  <!-- WM: +18 → y=138 -->
+  <text x="178" y="138" class="m" font-size="11.5" fill="#3d4d66">WM</text>
+  <text x="288" y="138" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">Hyprland</text>
+
+  <!-- Shell: +18 → y=156. Value intentionally y=157 (human off-by-one) -->
+  <text x="178" y="156" class="m" font-size="11.5" fill="#3d4d66">Shell</text>
+  <text x="288" y="157" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">zsh  <tspan fill="#28304a">+</tspan>  starship</text>
+
+  <!-- Editor: +18 → y=175 (slight extra gap after Shell — human spacing) -->
+  <text x="178" y="175" class="m" font-size="11.5" fill="#3d4d66">Editor</text>
+  <text x="288" y="175" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">Neovim</text>
+
+  <!-- Terminal: +18 → y=193 -->
+  <text x="178" y="193" class="m" font-size="11.5" fill="#3d4d66">Terminal</text>
+  <text x="288" y="193" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">kitty  <tspan fill="#28304a">+</tspan>  tmux</text>
+
+  <!-- ── Tools block (natural gap: +23 instead of +18) ── -->
+
+  <!-- Languages: y=216 -->
+  <text x="178" y="216" class="m" font-size="11.5" fill="#3d4d66">Languages</text>
+  <text x="288" y="216" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">C  TypeScript  Python</text>
+
+  <!-- Compiler: +18 → y=234 -->
+  <text x="178" y="234" class="m" font-size="11.5" fill="#3d4d66">Compiler</text>
+  <text x="288" y="234" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">gcc  clang</text>
+
+  <!-- Build: +18 → y=252 -->
+  <text x="178" y="252" class="m" font-size="11.5" fill="#3d4d66">Build</text>
+  <text x="288" y="252" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">cmake  ninja</text>
+
+  <!-- Containers: +18 → y=270. Value at y=271 — tiny drift -->
+  <text x="178" y="270" class="m" font-size="11.5" fill="#3d4d66">Containers</text>
+  <text x="288" y="271" class="m" font-size="11.5" fill="#a4accc" filter="url(#th)">docker</text>
+
+  <!-- Thin rule — ends 22px short of divider, feels human-placed -->
+  <line x1="178" y1="284" x2="688" y2="284" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- ── Identity rows (slightly smaller, looser pitch +19) ── -->
+
+  <!-- Focus: y=302 -->
+  <text x="178" y="302" class="m" font-size="11" fill="#3d4d66">Focus</text>
+  <text x="288" y="302" class="m" font-size="11" fill="#60697e">systems  ·  runtimes  ·  compilers  ·  tooling</text>
+
+  <!-- Projects: +20 → y=322 (slightly more gap, deliberate) -->
+  <text x="178" y="322" class="m" font-size="11" fill="#3d4d66">Projects</text>
+  <text x="288" y="322" class="m" font-size="11">
+    <tspan fill="#00b8cc">CONTEXT</tspan><tspan fill="#28304a"> runtime  ·  </tspan><tspan fill="#4ea368">Doklink</tspan><tspan fill="#28304a"> clinical AI</tspan>
+  </text>
+
+  <!-- ══════════════════════════════════════════════════════
+       RIGHT PANEL — git + system identity
+       No fake telemetry bars. Plain key/value only.
+  ══════════════════════════════════════════════════════ -->
+
+  <line x1="760" y1="46" x2="760" y2="350" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- GIT section -->
+  <text x="782" y="69" class="m" font-size="9" fill="#28304a" letter-spacing="1.4">GIT</text>
+  <line x1="782" y1="77" x2="1172" y2="77" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- git rows — key x=782, value x=848 -->
+  <text x="782" y="96"  class="m" font-size="11" fill="#3d4d66">user</text>
+  <text x="848" y="96"  class="m" font-size="11" fill="#767fa0" filter="url(#th)">devniru2704</text>
+
+  <!-- branch — value drifts 1px lower: y=114 vs key y=113 -->
+  <text x="782" y="113" class="m" font-size="11" fill="#3d4d66">branch</text>
+  <text x="848" y="114" class="m" font-size="11" fill="#767fa0" filter="url(#th)"><tspan fill="#1e2638">* </tspan>feat/context-parser</text>
+
+  <text x="782" y="131" class="m" font-size="11" fill="#3d4d66">commit</text>
+  <text x="848" y="131" class="m" font-size="11" fill="#2e3a52" filter="url(#th)">a3f91c2</text>
+
+  <text x="782" y="149" class="m" font-size="11" fill="#3d4d66">status</text>
+  <text x="848" y="149" class="m" font-size="11" fill="#4ea368"  filter="url(#th)">clean</text>
+
+  <!-- Separator -->
+  <line x1="782" y1="161" x2="1172" y2="161" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- SYSTEM section -->
+  <text x="782" y="179" class="m" font-size="9" fill="#28304a" letter-spacing="1.4">SYSTEM</text>
+  <line x1="782" y1="187" x2="1172" y2="187" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- system rows — deliberate pitch variations: +19, +18, +17, +18, +19 -->
+  <text x="782" y="206" class="m" font-size="11" fill="#3d4d66">kernel</text>
+  <text x="848" y="206" class="m" font-size="11" fill="#767fa0" filter="url(#th)">6.9.3-arch1-1</text>
+
+  <!-- pkgs value x=847 — 1px off column, human feel -->
+  <text x="782" y="224" class="m" font-size="11" fill="#3d4d66">pkgs</text>
+  <text x="847" y="224" class="m" font-size="11" fill="#767fa0" filter="url(#th)">1847 (pacman)</text>
+
+  <text x="782" y="241" class="m" font-size="11" fill="#3d4d66">shell</text>
+  <text x="848" y="241" class="m" font-size="11" fill="#767fa0" filter="url(#th)">uptime  14h 32m</text>
+
+  <!-- nvim value at y=259 vs key y=258 — tiny drift -->
+  <text x="782" y="258" class="m" font-size="11" fill="#3d4d66">nvim</text>
+  <text x="848" y="259" class="m" font-size="11" fill="#767fa0" filter="url(#th)">plugins  64 (lazy)</text>
+
+  <text x="782" y="277" class="m" font-size="11" fill="#3d4d66">workspace</text>
+  <text x="848" y="277" class="m" font-size="11" fill="#767fa0" filter="url(#th)">ws-3  (dev)</text>
+
+  <!-- Separator -->
+  <line x1="782" y1="290" x2="1172" y2="290" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- Runtime status — plain dot + text, no section header -->
+  <circle cx="788" cy="307" r="3"   fill="#4ea368" class="p1"/>
+  <text   x="800"  y="311" class="m" font-size="10.5" fill="#4a5470">all services running</text>
+
+  <circle cx="788" cy="324" r="3"   fill="#c47d30" class="p2"/>
+  <text   x="800"  y="328" class="m" font-size="10.5" fill="#4a5470">CONTEXT runtime — active</text>
+
+  <circle cx="788" cy="341" r="3"   fill="#00b8cc" class="p3"/>
+  <text   x="800"  y="345" class="m" font-size="10.5" fill="#4a5470">Doklink pipeline — staging</text>
+
+  <!-- ══ Bottom bar ══ -->
+  <line x1="0" y1="350" x2="1200" y2="350" stroke="#1b2131" stroke-width="1"/>
+
+  <!-- Prompt glyph — muted green, barely there -->
+  <text x="22"  y="367" class="m" font-size="11"   fill="#344530">❯</text>
+
+  <!-- Quote — very dim, nearly ambient -->
+  <text x="40"  y="367" class="m" font-size="10.5" fill="#242d3e">"Build intentionally. Understand deeply."</text>
+
+  <!-- Right-align handle — nearly invisible -->
+  <text x="1178" y="367" text-anchor="end" class="m" font-size="9" fill="#1a2030">devniru2704</text>
+
+</svg>

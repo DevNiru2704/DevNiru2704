@@ -20,16 +20,18 @@
 
 ---
 
-```typescript
-const engineer = {
-  alias:       "Nirmalya Mandal",
-  stack:       ["React", "Django", "Express", "PostgreSQL", "Docker"],
-  languages:   ["TypeScript", "Python", "JavaScript", "C"],
-  interests:   ["Systems Programming", "DevOps", "AI/ML", "Compilers"],
-  environment: { os: "Arch Linux", wm: "Hyprland", editor: "Neovim" },
-  principle:   "Ship real things. Build for understanding, not résumés.",
-};
+```html
+<div align="center">
+
+<img
+  src="./assets/terminal-card.svg"
+  alt="Terminal Identity Card"
+  width="100%"
+/>
+
+</div>
 ```
+
 
 ---
 
