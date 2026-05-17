@@ -66,7 +66,6 @@ const engineer = {
 
 ## ◈ &nbsp;Analytics
 
-```md
 <table>
   <tr>
     <td>
@@ -83,8 +82,6 @@ const engineer = {
     </td>
   </tr>
 </table>
-```
-
 
 <img
   src="https://streak-stats.demolab.com?user=DevNiru2704&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF&sideLabels=a9b1d6&dates=a9b1d6"
