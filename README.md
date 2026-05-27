@@ -139,26 +139,23 @@
 </td>
 
 <td width="50%" valign="top">
-  <h3>⬡ &nbsp;doklink-development</h3>
+  <h3>⬡ &nbsp;undefined</h3>
 
   <p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Shell-0D1117?style=flat-square&logo=shell&logoColor=white" />
+    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
+<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
+<img src="https://img.shields.io/badge/status-0D1117?style=flat-square&logo=status&logoColor=white" />
   </p>
 
   <p>
-    An emergency healthcare platform built with React Native and Django REST Framework, focused on real-time hospital bed booking, patient management, Aadhaar verification, and location-aware emergency response workflows.
+    No description
   </p>
 
-  <a href="https://github.com/DevNiru2704/doklink-development" target="_blank" rel="noopener noreferrer">
+  <a href="undefined" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
-  <a href="https://doklink-hospital-dashboard.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-  </a>
 </td>
 </tr><tr>
 <td width="50%" valign="top">
