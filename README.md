@@ -121,18 +121,17 @@
 <!-- START_PROJECTS -->
 <table width="100%"><tr>
 <td width="50%" valign="top">
-  <h3>⬡ &nbsp;undefined</h3>
+  <h3>⬡ &nbsp;CONTEXT</h3>
 
   <p>
-    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
-<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   </p>
 
   <p>
-    No description
+    A context-aware experimental programming language focused on explicit structure, explainable execution, and AI-assisted reasoning. Built from first principles with a minimal interpreter, full documentation, and an emphasis on clarity over complexity.
   </p>
 
-  <a href="undefined" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/DevNiru2704/CONTEXT" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
@@ -145,44 +144,7 @@
   <p>
     <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
 <img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
-  </p>
-
-  <p>
-    No description
-  </p>
-
-  <a href="undefined" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-</td>
-</tr><tr>
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;undefined</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
-<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
-  </p>
-
-  <p>
-    No description
-  </p>
-
-  <a href="undefined" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-</td>
-
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;undefined</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
-<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
+<img src="https://img.shields.io/badge/status-0D1117?style=flat-square&logo=status&logoColor=white" />
   </p>
 
   <p>
@@ -197,22 +159,72 @@
 </td>
 </tr><tr>
 <td width="50%" valign="top">
-  <h3>⬡ &nbsp;undefined</h3>
+  <h3>⬡ &nbsp;auktave</h3>
 
   <p>
-    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
-<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
   </p>
 
   <p>
-    No description
+    A modern event platform for Amity University Kolkata’s tech fest, built with Next.js and React. Features structured event management, animated interactive sections, registration workflows, schedules, sponsor systems, and responsive media-rich experiences.
   </p>
 
-  <a href="undefined" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/DevNiru2704/auktave" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
   </a>
 
   
+  <a href="https://auktave.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;a_fashions</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
+  </p>
+
+  <p>
+    A premium leather manufacturing platform built with Next.js and TypeScript, combining modern web engineering, enterprise-grade security, SEO optimization, and responsive design for global B2B product showcasing and client engagement.
+  </p>
+
+  <a href="https://github.com/DevNiru2704/a_fashions" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://a-fashions.vercel.app" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+  <h3>⬡ &nbsp;portfolio-2.0</h3>
+
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
+  </p>
+
+  <p>
+    A modern portfolio platform built with Next.js and TypeScript, featuring interactive UI systems, SEO optimization, accessibility compliance, analytics integration, and performance-focused responsive design.
+  </p>
+
+  <a href="https://github.com/DevNiru2704/portfolio-2.0" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
+  </a>
+
+  
+  <a href="https://www.nirmalyamandal.me" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
+  </a>
 </td>
 </tr></table>
 <!-- END_PROJECTS -->
