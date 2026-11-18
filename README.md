@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/quest-hero-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./assets/quest-hero-light.svg"/>
-  <img src="./assets/quest-hero-dark.svg" alt="Pixel-art knight cat with sword and shield. Nirmalya Mandal, Co-Founder and CTO of Doklink, Technical Director at No Strategy Studios" width="100%"/>
+  <img src="./assets/quest-hero-dark.svg" alt="Pixel-art knight cat with sword and shield. Nirmalya Mandal, Co-Founder and CTO of Doklink Services Pvt. Ltd., Technical Director at No Strategy Studios" width="100%"/>
 </picture>
 
 <br/>
@@ -19,7 +19,7 @@
 ```text
 NAME      : Nirmalya Mandal  (a.k.a. DevNiru2704)
 CLASS     : Full-Stack Paladin
-TITLE     : Co-Founder & CTO, Guildmaster of Doklink
+TITLE     : Co-Founder & CTO, Guildmaster of Doklink Services Pvt. Ltd.
 ALSO      : Technical Director, No Strategy Studios
 RACE      : Cat (60% caffeine, 40% cat energy)
 ALIGNMENT : chaotic good. Fueled by pain, designed for millions.
@@ -34,9 +34,9 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 
 ## <img src="./assets/icon-castle.svg" alt="" height="28" align="absmiddle"/> The Guild: Doklink
 
-> ### <img src="./assets/icon-shield.svg" alt="" height="28" align="absmiddle"/> Co-Founder & CTO @ **[Doklink](https://doklink.in)**: India's healthcare capacity optimisation platform
+> ### <img src="./assets/icon-shield.svg" alt="" height="28" align="absmiddle"/> Co-Founder & CTO @ **Doklink Services Pvt. Ltd.**
 >
-> Emergency care shouldn't start with phone calls. Doklink shows **real-time hospital bed availability**, lets patients **reserve a bed on the way**, and gives hospital staff a **panel** to confirm arrivals, admit, discharge and keep beds current.
+> Our product, **[Doklink](https://doklink.in)**, is India's healthcare capacity optimisation platform. Emergency care shouldn't start with phone calls. Doklink shows **real-time hospital bed availability**, lets patients **reserve a bed on the way**, and gives hospital staff a **panel** to confirm arrivals, admit, discharge and keep beds current.
 >
 > I own the whole stack and the team shipping it: **patient mobile app**, **hospital staff panel**, **marketing site**, **backend + realtime**, and the **prod infra** underneath (containers, reverse proxy, TLS, monitoring, backups, rollbacks).
 >
@@ -121,7 +121,7 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-0D1117?style=for-the-badge&logo=cloudinary&logoColor=3448C5)
 ![Shopify](https://img.shields.io/badge/Shopify-0D1117?style=for-the-badge&logo=shopify&logoColor=95BF47)
 ![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![Arch Linux](https://img.shields.io/badge/Arch_btw-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1)
+![Omarchy](https://img.shields.io/badge/Omarchy-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1)
 ![Neovim](https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143)
 
 <img src="./assets/icon-scroll.svg" alt="" height="28" align="absmiddle"/>
@@ -225,11 +225,11 @@ side_quests:
 
 | Layer         | Tool                       | Cat opinion          |
 |:--------------|:---------------------------|:---------------------|
-| OS            | Arch Linux (rolling)       | "btw" (mandatory)    |
+| OS            | Omarchy (Arch Linux based) | "I use Omarchy, btw" |
 | WM            | Hyprland (Wayland)         | sits on it           |
-| Terminal      | Kitty / Alacritty          | warm, 10/10          |
-| Shell         | Zsh + Starship             | purrs at prompts     |
-| Editor        | Neovim (custom config)     | no mouse, no mercy   |
+| Terminal      | Kitty                      | warm, 10/10          |
+| Shell         | Bash + Starship            | purrs at prompts     |
+| Editor        | Neovim (LazyVim)           | no mouse, no mercy   |
 | Multiplexer   | tmux                       | nine lives, nine panes |
 | Containers    | Docker + Compose           | boxes. cat loves boxes. |
 | Version ctrl  | Git + GitHub CLI           | `git blame cat`      |
