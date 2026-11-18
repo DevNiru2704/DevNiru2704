@@ -14,7 +14,7 @@
 
 </div>
 
-## ⚔️ Quest Log: About
+## <img src="./assets/icon-swords.svg" alt="" height="28" align="absmiddle"/> Quest Log: About
 
 ```text
 NAME      : Nirmalya Mandal  (a.k.a. DevNiru2704)
@@ -32,9 +32,9 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
-## 🏰 The Guild: Doklink
+## <img src="./assets/icon-castle.svg" alt="" height="28" align="absmiddle"/> The Guild: Doklink
 
-> ### 🛡️ Co-Founder & CTO @ **[Doklink](https://doklink.in)**: India's healthcare capacity optimisation platform
+> ### <img src="./assets/icon-shield.svg" alt="" height="28" align="absmiddle"/> Co-Founder & CTO @ **[Doklink](https://doklink.in)**: India's healthcare capacity optimisation platform
 >
 > Emergency care shouldn't start with phone calls. Doklink shows **real-time hospital bed availability**, lets patients **reserve a bed on the way**, and gives hospital staff a **panel** to confirm arrivals, admit, discharge and keep beds current.
 >
@@ -44,13 +44,13 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 
 <a href="https://doklink.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Visit-doklink.in-0D1117?style=for-the-badge&logoColor=F2C14E&labelColor=F2C14E&color=0D1117" alt="Visit doklink.in"/></a>
 
-> ### ⚔️ Technical Director @ **No Strategy Studios**
+> ### <img src="./assets/icon-swords.svg" alt="" height="28" align="absmiddle"/> Technical Director @ **No Strategy Studios**
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-## 🎒 Inventory: the Stack
+## <img src="./assets/icon-bag.svg" alt="" height="28" align="absmiddle"/> Inventory: the Stack
 
 *every item I have actually shipped with (not a keyword salad)*
 
@@ -67,7 +67,7 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![Three.js](https://img.shields.io/badge/Three.js-0D1117?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-0D1117?style=for-the-badge&logo=greensock&logoColor=88CE02)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0D1117?style=for-the-badge&logo=framer&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-0D1117?style=for-the-badge&logoColor=F2C14E&label=%F0%9F%90%BB)
+![Zustand](https://img.shields.io/badge/Zustand-0D1117?style=for-the-badge&logoColor=F2C14E)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-0D1117?style=for-the-badge&logo=reactquery&logoColor=FF4154)
 ![Leaflet](https://img.shields.io/badge/Leaflet-0D1117?style=for-the-badge&logo=leaflet&logoColor=199900)
 
@@ -105,10 +105,10 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=langchain&logoColor=1C3C3C&labelColor=0D1117)
 ![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=0097A7)
-![YOLO](https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF&label=%F0%9F%91%81)
+![YOLO](https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF)
 ![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458&labelColor=0D1117)
 ![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243&labelColor=0D1117)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=for-the-badge&logoColor=FFB020&label=%F0%9F%A7%AC)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=for-the-badge&logoColor=FFB020)
 
 <img src="./assets/class-blacksmith.svg" alt="Blacksmith cat" height="72"/>
 
@@ -124,20 +124,22 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![Arch Linux](https://img.shields.io/badge/Arch_btw-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1)
 ![Neovim](https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143)
 
-**📜 Scrolls: languages**
+<img src="./assets/icon-scroll.svg" alt="" height="28" align="absmiddle"/>
+
+**Scrolls: languages**
 
 ![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
 ![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
 ![C++](https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
 ![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
-![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=white&label=%F0%9F%97%84)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
 ![LaTeX](https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=008080)
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
-## 📊 Character Sheet
+## <img src="./assets/icon-chart.svg" alt="" height="28" align="absmiddle"/> Character Sheet
 
 <picture>
   <img src="./assets/quest-stats.svg" alt="RPG character sheet: HP 100, MP 90, XP 87, attributes for backend, frontend, ML, devops, docs and luck" width="700"/>
@@ -165,7 +167,7 @@ side_quests:
 
 <div align="center">
 
-## 🗡️ Battle Record
+## <img src="./assets/icon-dagger.svg" alt="" height="28" align="absmiddle"/> Battle Record
 
 *the cat insists on evidence*
 
@@ -196,7 +198,7 @@ side_quests:
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
-## 🐍 The Great Serpent Hunt
+## <img src="./assets/icon-serpent.svg" alt="" height="28" align="absmiddle"/> The Great Serpent Hunt
 
 <img src="./assets/quest-serpent-banner.svg" alt="The Great Serpent Hunt: a knight cat faces a green serpent" width="100%"/>
 
@@ -219,7 +221,7 @@ side_quests:
 
 </div>
 
-## 🧰 Loadout
+## <img src="./assets/icon-toolbox.svg" alt="" height="28" align="absmiddle"/> Loadout
 
 | Layer         | Tool                       | Cat opinion          |
 |:--------------|:---------------------------|:---------------------|
@@ -236,7 +238,7 @@ side_quests:
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
-## 🦅 Send a Raven
+## <img src="./assets/icon-raven.svg" alt="" height="28" align="absmiddle"/> Send a Raven
 
 <a href="https://linkedin.com/in/nirmalya-mandal-9b2475313" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <a href="https://nirmalyamandal.me" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio"/></a>
