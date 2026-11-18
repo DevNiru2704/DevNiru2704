@@ -1,101 +1,194 @@
-<!-- ============================================================
-     GITHUB PROFILE README — DevNiru2704 / Nirmalya Mandal
-     All placeholders have been filled with your real details.
-     To add more projects, copy the PROJECT CARD TEMPLATE in the
-     Featured Projects section and paste a new <tr> block.
-     ============================================================ -->
-
-<!-- SNAKE SETUP: Create .github/workflows/snake.yml
-     Full instructions at the bottom of this file. -->
-
-
-<!-- <a href="https://git.io/typing-svg" target="_blank" rel="noopener noreferrer"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=%24+whoami;Full+Stack+%7C+DevOps+%7C+Systems" alt="Typing SVG" /></a> -->
-
-
 <div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/terminal-card-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/terminal-card-light.svg"/>
-  <img src="./assets/terminal-card-dark.svg" alt="Terminal Identity Card" width="100%" height="auto"/>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/quest-hero-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/quest-hero-light.svg"/>
+  <img src="./assets/quest-hero-dark.svg" alt="Pixel-art knight cat with sword and shield. Nirmalya Mandal, Co-Founder and CTO of Doklink, Technical Director at No Strategy Studios" width="100%"/>
 </picture>
+
 <br/>
-<br/>
-<img
-  src="https://komarev.com/ghpvc/?username=DevNiru2704&style=for-the-badge&color=0D1117&label=PROFILE+VIEWS&labelColor=00D4FF"
-  alt="Profile Views"
-/>
+
+<img src="https://komarev.com/ghpvc/?username=DevNiru2704&style=for-the-badge&color=0D1117&label=ADVENTURERS+WHO+VISITED&labelColor=F2C14E" alt="Profile views"/>
+
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
+
 </div>
 
----
+## ⚔️ Quest Log: About
+
+```text
+NAME      : Nirmalya Mandal  (a.k.a. DevNiru2704)
+CLASS     : Full-Stack Paladin
+TITLE     : Co-Founder & CTO, Guildmaster of Doklink
+ALSO      : Technical Director, No Strategy Studios
+RACE      : Cat (60% caffeine, 40% cat energy)
+ALIGNMENT : chaotic good. Fueled by pain, designed for millions.
+CREED     : think of the people first, then the system design.
+WEAPON    : Neovim +3   |  SHIELD: CI pipeline +5
+```
+
+I move between **frontend polish, backend plumbing, DevOps and ML** without needing a map.
+Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised deploys, monitoring, rollback scripts. The cat sets the vibe. The CI sets the standard.
+
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
+
+## 🏰 The Guild: Doklink
+
+> ### 🛡️ Co-Founder & CTO @ **[Doklink](https://doklink.in)**: India's healthcare capacity optimisation platform
+>
+> Emergency care shouldn't start with phone calls. Doklink shows **real-time hospital bed availability**, lets patients **reserve a bed on the way**, and gives hospital staff a **panel** to confirm arrivals, admit, discharge and keep beds current.
+>
+> I own the whole stack and the team shipping it: **patient mobile app**, **hospital staff panel**, **marketing site**, **backend + realtime**, and the **prod infra** underneath (containers, reverse proxy, TLS, monitoring, backups, rollbacks).
+>
+> `React Native · Expo` · `Next.js` · `Django REST` · `PostgreSQL` · `Redis` · `Docker` · `Nginx` · `Certbot` · `Monitoring`
+
+<a href="https://doklink.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Visit-doklink.in-0D1117?style=for-the-badge&logoColor=F2C14E&labelColor=F2C14E&color=0D1117" alt="Visit doklink.in"/></a>
+
+> ### ⚔️ Technical Director @ **No Strategy Studios**
+
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-## ⬡ &nbsp;Stack
+## 🎒 Inventory: the Stack
 
-**Frontend**
+*every item I have actually shipped with (not a keyword salad)*
 
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=00D4FF)
+<img src="./assets/class-mage.svg" alt="Mage cat" height="72"/>
+
+**Mage Cat: frontend spells**
+
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind](https://img.shields.io/badge/Tailwind-0D1117?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
+![Vite](https://img.shields.io/badge/Vite-0D1117?style=for-the-badge&logo=vite&logoColor=646CFF)
+![Three.js](https://img.shields.io/badge/Three.js-0D1117?style=for-the-badge&logo=threedotjs&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-0D1117?style=for-the-badge&logo=greensock&logoColor=88CE02)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0D1117?style=for-the-badge&logo=framer&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-0D1117?style=for-the-badge&logoColor=F2C14E&label=%F0%9F%90%BB)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-0D1117?style=for-the-badge&logo=reactquery&logoColor=FF4154)
+![Leaflet](https://img.shields.io/badge/Leaflet-0D1117?style=for-the-badge&logo=leaflet&logoColor=199900)
+
+<img src="./assets/class-ranger.svg" alt="Ranger cat" height="72"/>
+
+**Ranger Cat: mobile**
+
 ![React Native](https://img.shields.io/badge/React_Native-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-0D1117?style=for-the-badge&logo=expo&logoColor=white)
 
-**Backend & Data**
+<img src="./assets/class-paladin.svg" alt="Paladin cat" height="72"/>
 
-![Django](https://img.shields.io/badge/Django-0D1117?style=for-the-badge&logo=django&logoColor=092E20&labelColor=0D1117)
-![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=ffffff)
+**Paladin Cat: backend**
+
+![Django](https://img.shields.io/badge/Django_REST-0D1117?style=for-the-badge&logo=django&logoColor=44B78B)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E)
+![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-0D1117?style=for-the-badge&logo=springboot&logoColor=6DB33F)
+![Prisma](https://img.shields.io/badge/Prisma-0D1117?style=for-the-badge&logo=prisma&logoColor=2D3748&labelColor=0D1117)
+![NextAuth](https://img.shields.io/badge/NextAuth-0D1117?style=for-the-badge&logo=auth0&logoColor=EB5424)
+![Zod](https://img.shields.io/badge/Zod-0D1117?style=for-the-badge&logo=zod&logoColor=3E67B1)
+
+<img src="./assets/class-alchemist.svg" alt="Alchemist cat" height="72"/>
+
+**Alchemist Cat: data and ML**
+
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=336791)
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![Redis](https://img.shields.io/badge/Redis-0D1117?style=for-the-badge&logo=redis&logoColor=DC382D)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0D1117?style=for-the-badge&logo=sqlalchemy&logoColor=D71F00)
+![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
+![Hugging Face](https://img.shields.io/badge/Transformers-0D1117?style=for-the-badge&logo=huggingface&logoColor=FFD21E)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0D1117?style=for-the-badge&logo=scikitlearn&logoColor=F7931E)
+![LangChain](https://img.shields.io/badge/LangChain-0D1117?style=for-the-badge&logo=langchain&logoColor=1C3C3C&labelColor=0D1117)
+![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0D1117?style=for-the-badge&logo=google&logoColor=0097A7)
+![YOLO](https://img.shields.io/badge/YOLO-0D1117?style=for-the-badge&logoColor=00FFFF&label=%F0%9F%91%81)
+![pandas](https://img.shields.io/badge/pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458&labelColor=0D1117)
+![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243&labelColor=0D1117)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=for-the-badge&logoColor=FFB020&label=%F0%9F%A7%AC)
 
-**Infrastructure & Tooling**
+<img src="./assets/class-blacksmith.svg" alt="Blacksmith cat" height="72"/>
+
+**Blacksmith Cat: infra and tooling**
 
 ![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Arch_Linux-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1)
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
 ![Nginx](https://img.shields.io/badge/Nginx-0D1117?style=for-the-badge&logo=nginx&logoColor=009639)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0D1117?style=for-the-badge&logo=githubactions&logoColor=2088FF)
+![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-0D1117?style=for-the-badge&logo=cloudinary&logoColor=3448C5)
+![Shopify](https://img.shields.io/badge/Shopify-0D1117?style=for-the-badge&logo=shopify&logoColor=95BF47)
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+![Arch Linux](https://img.shields.io/badge/Arch_btw-0D1117?style=for-the-badge&logo=archlinux&logoColor=1793D1)
+![Neovim](https://img.shields.io/badge/Neovim-0D1117?style=for-the-badge&logo=neovim&logoColor=57A143)
+
+**📜 Scrolls: languages**
+
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![Java](https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+![C++](https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![C](https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=A8B9CC)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=white&label=%F0%9F%97%84)
+![Bash](https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=4EAA25)
+![LaTeX](https://img.shields.io/badge/LaTeX-0D1117?style=for-the-badge&logo=latex&logoColor=008080)
+
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
+
+## 📊 Character Sheet
+
+<picture>
+  <img src="./assets/quest-stats.svg" alt="RPG character sheet: HP 100, MP 90, XP 87, attributes for backend, frontend, ML, devops, docs and luck" width="700"/>
+</picture>
 
 </div>
 
----
+```yaml
+# active-quests.yml  (the part where the cat stops joking)
+main_quests:
+  - Doklink: bed booking, hospital panel, realtime backend, prod infra
+  - CONTEXT: a context-aware language with an explainable interpreter
+
+skill_tree:
+  - Rust for systems tooling
+  - Kernel internals and eBPF
+  - LLM fine-tuning and inference optimisation
+
+side_quests:
+  - WebAssembly as a compile target for CONTEXT
+  - Distributed systems primitives
+```
+
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-## ◈ &nbsp;Analytics
+## 🗡️ Battle Record
+
+*the cat insists on evidence*
 
 <table>
   <tr>
     <td>
-      <img
-        src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevNiru2704&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=a9b1d6&ring_color=00D4FF&count_private=true&include_all_commits=true"
-        alt="GitHub Stats"
-      />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevNiru2704&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=F2C14E&icon_color=E8863A&text_color=F1E0B0&ring_color=F2C14E&count_private=true&include_all_commits=true" alt="GitHub stats"/>
     </td>
     <td>
-      <img
-        src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevNiru2704&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=00D4FF&text_color=a9b1d6&langs_count=8"
-        alt="Top Languages"
-      />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevNiru2704&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=F2C14E&text_color=F1E0B0&langs_count=8" alt="Top languages"/>
     </td>
   </tr>
 </table>
 
-<img
-  src="https://streak-stats.demolab.com?user=DevNiru2704&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF&sideLabels=a9b1d6&dates=a9b1d6"
-  alt="Contribution Streak"
-/>
+<img src="https://streak-stats.demolab.com?user=DevNiru2704&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=F2C14E&ring=E8863A&fire=E04B2A&currStreakLabel=F2C14E&sideLabels=F1E0B0&dates=8B949E" alt="Contribution streak"/>
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=DevNiru2704&bg_color=0D1117&color=00D4FF&line=00D4FF&point=ffffff&area=true&area_color=00D4FF&hide_border=true"
-  alt="Activity Graph"
-  width="95%"
-/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevNiru2704&bg_color=0D1117&color=E8863A&line=F2C14E&point=ffffff&area=true&area_color=E8863A&hide_border=true" alt="Activity graph" width="95%"/>
 
-</div>
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
----
+## 🐍 The Great Serpent Hunt
 
-<div align="center">
-
-## ◈ &nbsp;Contribution Map
+<img src="./assets/quest-serpent-banner.svg" alt="The Great Serpent Hunt: a knight cat faces a green serpent" width="100%"/>
 
 <picture>
   <source
@@ -112,295 +205,47 @@
   />
 </picture>
 
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
+
 </div>
 
----
+## 🧰 Loadout
 
-## ◈ &nbsp;Featured Projects
-
-<!-- START_PROJECTS -->
-<table width="100%"><tr>
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;CONTEXT</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  </p>
-
-  <p>
-    A context-aware experimental programming language focused on explicit structure, explainable execution, and AI-assisted reasoning. Built from first principles with a minimal interpreter, full documentation, and an emphasis on clarity over complexity.
-  </p>
-
-  <a href="https://github.com/DevNiru2704/CONTEXT" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-</td>
-
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;undefined</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/message-0D1117?style=flat-square&logo=message&logoColor=white" />
-<img src="https://img.shields.io/badge/documentation_url-0D1117?style=flat-square&logo=documentation_url&logoColor=white" />
-<img src="https://img.shields.io/badge/status-0D1117?style=flat-square&logo=status&logoColor=white" />
-  </p>
-
-  <p>
-    No description
-  </p>
-
-  <a href="undefined" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-</td>
-</tr><tr>
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;auktave</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML-0D1117?style=flat-square&logo=html&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
-  </p>
-
-  <p>
-    A modern event platform for Amity University Kolkata’s tech fest, built with Next.js and React. Features structured event management, animated interactive sections, registration workflows, schedules, sponsor systems, and responsive media-rich experiences.
-  </p>
-
-  <a href="https://github.com/DevNiru2704/auktave" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-  <a href="https://auktave.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-  </a>
-</td>
-
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;a_fashions</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
-  </p>
-
-  <p>
-    A premium leather manufacturing platform built with Next.js and TypeScript, combining modern web engineering, enterprise-grade security, SEO optimization, and responsive design for global B2B product showcasing and client engagement.
-  </p>
-
-  <a href="https://github.com/DevNiru2704/a_fashions" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-  <a href="https://a-fashions.vercel.app" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-  </a>
-</td>
-</tr><tr>
-<td width="50%" valign="top">
-  <h3>⬡ &nbsp;portfolio-2.0</h3>
-
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-0D1117?style=flat-square&logo=css&logoColor=white" />
-  </p>
-
-  <p>
-    A modern portfolio platform built with Next.js and TypeScript, featuring interactive UI systems, SEO optimization, accessibility compliance, analytics integration, and performance-focused responsive design.
-  </p>
-
-  <a href="https://github.com/DevNiru2704/portfolio-2.0" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Repository-0D1117?style=for-the-badge&logo=github&logoColor=00D4FF" />
-  </a>
-
-  
-  <a href="https://www.nirmalyamandal.me" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Live-0D1117?style=for-the-badge&logoColor=00D4FF" />
-  </a>
-</td>
-</tr></table>
-<!-- END_PROJECTS -->
-
----
-
-## ◈ &nbsp;Current Focus
-
-```yaml
-# Q2 2025
-building:
-  - CONTEXT language runtime and standard library
-  - Doklink clinical AI pipeline
-
-learning:
-  - Rust for systems tooling
-  - Kernel internals and eBPF
-  - LLM fine-tuning and inference optimisation
-
-exploring:
-  - WebAssembly as a compilation target for CONTEXT
-  - Distributed systems primitives
-```
-
----
-
-## ◈ &nbsp;Dev Environment
-
-| Layer        | Tool                     |
-|:-------------|:-------------------------|
-| OS           | Arch Linux (rolling)     |
-| WM           | Hyprland (Wayland)       |
-| Terminal     | Kitty / Alacritty        |
-| Shell        | Zsh + Starship           |
-| Editor       | Neovim (custom config)   |
-| Multiplexer  | tmux                     |
-| Containers   | Docker + Compose         |
-| Version Ctrl | Git + GitHub CLI         |
-
----
+| Layer         | Tool                       | Cat opinion          |
+|:--------------|:---------------------------|:---------------------|
+| OS            | Arch Linux (rolling)       | "btw" (mandatory)    |
+| WM            | Hyprland (Wayland)         | sits on it           |
+| Terminal      | Kitty / Alacritty          | warm, 10/10          |
+| Shell         | Zsh + Starship             | purrs at prompts     |
+| Editor        | Neovim (custom config)     | no mouse, no mercy   |
+| Multiplexer   | tmux                       | nine lives, nine panes |
+| Containers    | Docker + Compose           | boxes. cat loves boxes. |
+| Version ctrl  | Git + GitHub CLI           | `git blame cat`      |
 
 <div align="center">
 
-## ◈ &nbsp;Connect
+<img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
-<a href="https://linkedin.com/in/nirmalya-mandal-9b2475313" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
-</a>
-<a href="https://nirmalyamandal.me" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio" />
-</a>
-<a href="https://leetcode.com/u/wQ6wdt3C20" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode" />
-</a>
-<a href="https://x.com/Nirmalya2709" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=ffffff" alt="X" />
-</a>
-<a href="mailto:nirmalya.mandal@outlook.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Outlook-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=0078D4" alt="Outlook" />
-</a>
-<a href="mailto:nirmalyamandal342@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail" />
-</a>
+## 🦅 Send a Raven
 
-<br/>
+<a href="https://linkedin.com/in/nirmalya-mandal-9b2475313" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
+<a href="https://nirmalyamandal.me" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio"/></a>
+<a href="https://leetcode.com/u/wQ6wdt3C20" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
+<a href="https://x.com/Nirmalya2709" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=ffffff" alt="X"/></a>
+<a href="mailto:nirmalya.mandal@outlook.com"><img src="https://img.shields.io/badge/Outlook-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=0078D4" alt="Outlook"/></a>
+<a href="mailto:nirmalyamandal342@gmail.com"><img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"/></a>
 
-```
-Open to: Interesting problems · Collaboration · Full-time roles
-Not open to: Tutorial projects · Spec work · Unpaid consulting
+<br/><br/>
+
+```text
+QUESTS ACCEPTED : hard problems · real collaboration · full-time roles · treats
+QUESTS DECLINED : tutorial projects · spec work · unpaid consulting · dogs
 ```
 
-</div>
-
----
-
-<div align="center">
-
-<sub>
-Built with intent, not templates &nbsp;·&nbsp; May 2026
-</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/quest-footer-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/quest-footer-light.svg"/>
+  <img src="./assets/quest-footer-dark.svg" alt="A sleeping cat. No bugs were harmed." width="100%"/>
+</picture>
 
 </div>
-
----
-
-<!-- ════════════════════════════════════════════════════════════════════
-     SNAKE ANIMATION SETUP
-     ════════════════════════════════════════════════════════════════════
-
-     Step 1: In your profile repo (DevNiru2704/DevNiru2704), create:
-             .github/workflows/snake.yml
-
-     Step 2: Paste the following YAML exactly into that file:
-
-     ─────────────────────────────────────────────────────────────────
-     name: Generate Snake Animation
-
-     on:
-       schedule:
-         - cron: "0 0 * * *"
-       workflow_dispatch:
-
-     jobs:
-       generate:
-         runs-on: ubuntu-latest
-         timeout-minutes: 10
-         steps:
-           - uses: Platane/snk/svg-only@v3
-             with:
-               github_user_name: ${{ github.repository_owner }}
-               outputs: |
-                 dist/github-contribution-grid-snake.svg
-                 dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-           - name: Push to output branch
-             uses: crazy-max/ghaction-github-pages@v3.1.0
-             with:
-               target_branch: output
-               build_dir: dist
-             env:
-               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     ─────────────────────────────────────────────────────────────────
-
-     Step 3: Go to Actions tab → run "Generate Snake Animation" manually.
-             After that it auto-runs daily at midnight UTC.
-             The snake SVGs will live on the `output` branch.
-
-════════════════════════════════════════════════════════════════════
-
-     PINNED REPOSITORY RECOMMENDATIONS
-     ════════════════════════════════════════════════════════════════════
-
-     Pin these 6 in this order (Profile → "Customize your pins"):
-
-     1. DevNiru2704/CONTEXT              — Most original work; own language
-     2. DevNiru2704/doklink-development  — AI + healthcare = high signal
-     3. DevNiru2704/auktave              — Real product in production
-     4. DevNiru2704/a_fashions           — Full-stack with real client
-     5. DevNiru2704/portfolio-2.0        — Shows frontend depth + live URL
-     6. DevNiru2704/[dotfiles repo]      — Engineering culture signal
-
-════════════════════════════════════════════════════════════════════
-
-     REPOSITORY NAMING & HYGIENE
-     ════════════════════════════════════════════════════════════════════
-
-     Current name            Suggested rename      Reason
-     ──────────────────      ────────────────      ─────────────────────────
-     doklink-development  →  doklink               remove "-development" suffix
-     a_fashions           →  a-fashions            kebab-case consistency
-     portfolio-2.0        →  portfolio             version in repo name is noisy
-
-     For every repo, set in Settings:
-     ✓ One-sentence description (no period at end)
-     ✓ 3–5 topic tags: "compiler", "django", "react", "docker", "ai", etc.
-     ✓ Website URL if deployed
-     ✓ LICENSE file (MIT recommended)
-
-════════════════════════════════════════════════════════════════════
-
-     INDIVIDUAL REPO README CHECKLIST
-     ════════════════════════════════════════════════════════════════════
-
-     Each repo README should contain, in this order:
-     1. One-line technical description (no "this is a project that…")
-     2. Screenshot or architecture diagram
-     3. Tech stack badges
-     4. Getting Started: clone → configure → run in ≤ 5 commands
-     5. Key design decisions (2–3 engineering-focused bullets)
-     6. Roadmap (signals the project is alive and intentional)
-     7. License section
-
-     Avoid:
-     ✗ "I built this to learn X"
-     ✗ Giant walls of text with no structure
-     ✗ Missing or broken setup instructions
-     ✗ TODOs with nothing checked off
-
-════════════════════════════════════════════════════════════════════ -->
