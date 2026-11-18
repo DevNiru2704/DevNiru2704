@@ -251,7 +251,7 @@ side_quests:
 
 ```text
 QUESTS ACCEPTED : hard problems · real collaboration · full-time roles · treats
-QUESTS DECLINED : tutorial projects · spec work · unpaid consulting · dogs
+QUESTS DECLINED : tutorial projects · spec work · unpaid consulting
 ```
 
 <picture>
