@@ -172,17 +172,27 @@ side_quests:
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=DevNiru2704&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=F2C14E&icon_color=E8863A&text_color=F1E0B0&ring_color=F2C14E&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/stats-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/stats-light.svg"/>
+  <img src="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/stats-dark.svg" alt="GitHub stats" width="100%"/>
+</picture>
     </td>
     <td>
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DevNiru2704&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=F2C14E&text_color=F1E0B0&langs_count=8" alt="Top languages"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/langs-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/langs-light.svg"/>
+  <img src="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/langs-dark.svg" alt="Top languages" width="100%"/>
+</picture>
     </td>
   </tr>
 </table>
 
-<img src="https://streak-stats.demolab.com?user=DevNiru2704&theme=tokyonight-duo&hide_border=true&background=0D1117&stroke=F2C14E&ring=E8863A&fire=E04B2A&currStreakLabel=F2C14E&sideLabels=F1E0B0&dates=8B949E" alt="Contribution streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevNiru2704&bg_color=0D1117&color=E8863A&line=F2C14E&point=ffffff&area=true&area_color=E8863A&hide_border=true" alt="Activity graph" width="95%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/streak-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/streak-light.svg"/>
+  <img src="https://raw.githubusercontent.com/DevNiru2704/DevNiru2704/output/streak-dark.svg" alt="Contribution streak" width="100%"/>
+</picture>
 
 <img src="./assets/quest-divider.svg" alt="" width="100%"/>
 
