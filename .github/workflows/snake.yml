@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Snake and Stats
 
 on:
   schedule:
@@ -14,12 +14,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: DevNiru2704
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#2F7D3A&color_dots=#E8D5A8,#F6D98A,#F2C14E,#E8863A,#C0392B
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#3FA34D&color_dots=#232347,#5B4A1E,#9A7B1E,#E0A92A,#F2C14E
+
+      - name: Generate stats cards
+        run: node scripts/generate-stats.js dist
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
