@@ -241,7 +241,7 @@ side_quests:
 ## <img src="./assets/icon-raven.svg" alt="" height="28" align="absmiddle"/> Send a Raven
 
 <a href="https://linkedin.com/in/nirmalya-mandal-9b2475313" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
-<a href="https://nirmalyamandal.me" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio"/></a>
+<a href="https://www.devniru.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=ffffff" alt="Portfolio"/></a>
 <a href="https://leetcode.com/u/wQ6wdt3C20" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LeetCode-0D1117?style=for-the-badge&logo=leetcode&logoColor=FFA116" alt="LeetCode"/></a>
 <a href="https://x.com/Nirmalya2709" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=x&logoColor=ffffff" alt="X"/></a>
 <a href="mailto:nirmalya.mandal@outlook.com"><img src="https://img.shields.io/badge/Outlook-0D1117?style=for-the-badge&logo=microsoftoutlook&logoColor=0078D4" alt="Outlook"/></a>
