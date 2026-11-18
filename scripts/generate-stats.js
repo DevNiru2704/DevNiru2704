@@ -139,12 +139,14 @@ function statsCard(d, t) {
 }
 
 function langsCard(d, t) {
-  const top = d.langs.slice(0, 6), total = d.langs.reduce((s, l) => s + l.size, 0) || 1;
+  // Jupyter Notebook counts raw notebook JSON, which drowns the real languages
+  const langs = d.langs.filter((l) => l.name !== "Jupyter Notebook");
+  const top = langs.slice(0, 6), total = langs.reduce((s, l) => s + l.size, 0) || 1;
   let o = box(0, 0, 440, 292, t.panel, t.border);
   o += `<text x="30" y="46" class="t" font-size="20" fill="${t.accent}">SPELLBOOK</text><text x="30" y="68" class="t" font-size="13" fill="${t.mute}">most cast languages</text>`;
   top.forEach((l, i) => {
     const y = 92 + i * 31, pct = (l.size / total) * 100, on = Math.max(1, Math.round(pct / 10));
-    o += `<text x="30" y="${y + 14}" class="t" font-size="14" fill="${t.ink}">${esc(l.name.slice(0, 11))}</text>`;
+    o += `<text x="30" y="${y + 14}" class="t" font-size="14" fill="${t.ink}">${esc(l.name.length > 13 ? l.name.slice(0, 12) + "…" : l.name)}</text>`;
     for (let k = 0; k < 10; k++) o += `<rect x="${150 + k * 19}" y="${y}" width="16" height="18" fill="${k < on ? l.color || "#7FD0A0" : t.track}"/>`;
     o += `<text x="410" y="${y + 14}" text-anchor="end" class="t" font-size="14" fill="${t.accent}">${pct.toFixed(1)}%</text>`;
   });
