@@ -54,7 +54,7 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 
 *every item I have actually shipped with (not a keyword salad)*
 
-<img src="./assets/class-mage.svg" alt="Mage cat" height="72"/>
+<img src="./assets/class-mage.svg" alt="Mage cat" height="96"/>
 
 **Mage Cat: frontend spells**
 
@@ -71,14 +71,14 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-0D1117?style=for-the-badge&logo=reactquery&logoColor=FF4154)
 ![Leaflet](https://img.shields.io/badge/Leaflet-0D1117?style=for-the-badge&logo=leaflet&logoColor=199900)
 
-<img src="./assets/class-ranger.svg" alt="Ranger cat" height="72"/>
+<img src="./assets/class-ranger.svg" alt="Ranger cat" height="96"/>
 
 **Ranger Cat: mobile**
 
 ![React Native](https://img.shields.io/badge/React_Native-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-0D1117?style=for-the-badge&logo=expo&logoColor=white)
 
-<img src="./assets/class-paladin.svg" alt="Paladin cat" height="72"/>
+<img src="./assets/class-paladin.svg" alt="Paladin cat" height="96"/>
 
 **Paladin Cat: backend**
 
@@ -91,7 +91,7 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![NextAuth](https://img.shields.io/badge/NextAuth-0D1117?style=for-the-badge&logo=auth0&logoColor=EB5424)
 ![Zod](https://img.shields.io/badge/Zod-0D1117?style=for-the-badge&logo=zod&logoColor=3E67B1)
 
-<img src="./assets/class-alchemist.svg" alt="Alchemist cat" height="72"/>
+<img src="./assets/class-alchemist.svg" alt="Alchemist cat" height="96"/>
 
 **Alchemist Cat: data and ML**
 
@@ -110,7 +110,7 @@ Meme on the outside, **production-grade on the inside**: typed APIs, Dockerised 
 ![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243&labelColor=0D1117)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=for-the-badge&logoColor=FFB020)
 
-<img src="./assets/class-blacksmith.svg" alt="Blacksmith cat" height="72"/>
+<img src="./assets/class-blacksmith.svg" alt="Blacksmith cat" height="96"/>
 
 **Blacksmith Cat: infra and tooling**
 
