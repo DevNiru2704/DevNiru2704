@@ -46,13 +46,15 @@ async function fetchData() {
   const now = new Date().toISOString().replace(/\.\d+Z$/, "Z");
   let q = "";
   for (let y = y0; y <= y1; y++) {
-    q += `y${y}:contributionsCollection(from:"${y}-01-01T00:00:00Z",to:"${y === y1 ? now : y + "-12-31T23:59:59Z"}"){totalCommitContributions restrictedContributionsCount contributionCalendar{weeks{contributionDays{date contributionCount}}}}`;
+    q += `y${y}:contributionsCollection(from:"${y}-01-01T00:00:00Z",to:"${y === y1 ? now : y + "-12-31T23:59:59Z"}"){totalCommitContributions totalIssueContributions totalPullRequestContributions restrictedContributionsCount contributionCalendar{weeks{contributionDays{date contributionCount}}}}`;
   }
   const c = (await gql(`query{user(login:"${USER}"){${q}}}`)).user;
-  let commits = 0;
+  let commits = 0, issues = 0, prs = 0;
   const days = [];
   for (const k of Object.keys(c)) {
     commits += c[k].totalCommitContributions + c[k].restrictedContributionsCount;
+    issues += c[k].totalIssueContributions;
+    prs += c[k].totalPullRequestContributions;
     for (const w of c[k].contributionCalendar.weeks) for (const d of w.contributionDays) days.push({ date: d.date, count: d.contributionCount });
   }
   const langs = new Map();
@@ -66,7 +68,8 @@ async function fetchData() {
     }
   }
   return {
-    stars, commits, prs: u.pullRequests.totalCount, issues: u.issues.totalCount, repos: u.repositories.totalCount,
+    stars, commits, // contribution counts include org repos and match the profile; user.issues only sees repos the token can read
+    prs: Math.max(prs, u.pullRequests.totalCount), issues: Math.max(issues, u.issues.totalCount), repos: u.repositories.totalCount,
     followers: u.followers.totalCount, langs: [...langs.values()].sort((a, b) => b.size - a.size), streak: streaks(days),
   };
 }
